@@ -38,7 +38,7 @@ class ProductsController extends AdminController
 
         return $grid;
     }
-    
+
     protected function form()
     {
         $form = new Form(new Product);
