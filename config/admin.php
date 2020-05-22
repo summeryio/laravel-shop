@@ -250,7 +250,7 @@ return [
     | Set a default avatar for newly created users.
     |
     */
-    'default_avatar' => '/vendor/laravel-admin/AdminLTE/dist/img/user2-160x160.jpg',
+    'default_avatar' => 'https://y.gtimg.cn/music/photo_new/T002R800x800M000000nSDNS2ZHLB6_1.jpg?max_age=2592000',
 
     /*
     |--------------------------------------------------------------------------
