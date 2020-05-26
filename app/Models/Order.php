@@ -81,10 +81,10 @@ class Order extends Model
         return $this->hasMany(OrderItem::class);
     }
 
-    public function findAvailableNo() {
+    public static function findAvailableNo() {
         $prefix = date('YmdHis');
 
-        for ($i = 0;  $i < 10; $i ++) {
+        for ($i = 0;  $i < 10; $i++) {
             $no = $prefix.str_pad(random_int(0, 999999), 6, '0', STR_PAD_LEFT);
 
             if (!static::query()->where('no', $no)->exists()) {

@@ -43,7 +43,7 @@ class OrdersController extends Controller
                 ]);
                 $item->product()->associate($sku->product_id);
                 $item->productSku()->associate($sku);
-                $item-save();
+                $item->save();
 
                 $totalAmount += $sku->price * $data['amount'];
 
