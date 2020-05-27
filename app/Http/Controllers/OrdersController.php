@@ -10,13 +10,14 @@ use App\Models\ProductSku;
 use App\Models\UserAddress;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
+use App\Services\CartService;
 
 class OrdersController extends Controller
 {
-    public function store(OrderRequest $request) {
+    public function store(OrderRequest $request, CartService $cartService) {
         $user = $request->user();
 
-        $order = \DB::transaction(function () use ($user, $request) {
+        $order = \DB::transaction(function () use ($user, $request, $cartService) {
             $address = UserAddress::find($request->input('address_id'));
             $address->update(['last_used_at', Carbon::now()]);
 
@@ -56,7 +57,7 @@ class OrdersController extends Controller
             $order->update(['total_amount' => $totalAmount]);
 
             $skuIds = collect($items)->pluck('sku_id');
-            $user->CartItems()->whereIn('product_sku_id', $skuIds)->delete();
+            $cartService->remove($skuIds);
 
             // 触发任务
             $this->dispatch(new CloseOrder($order, config('app.order_ttl')));
