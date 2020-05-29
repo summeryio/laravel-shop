@@ -35,6 +35,9 @@ Route::group(['middleware' => ['auth', 'verified']], function () {
     // 支付相关
     Route::get('payment/{order}/alipay', 'PaymentController@payByAlipay')->name('payment.alipay');
     Route::get('payment/alipay/return', 'PaymentController@alipayReturn')->name('payment.alipay.return');
+
+    // 确认收货
+    Route::post('orders/{order}/received', 'OrdersController@received')->name('orders.received');
 });
 
 
