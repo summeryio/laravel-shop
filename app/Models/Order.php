@@ -98,11 +98,16 @@ class Order extends Model
         return false;
     }
 
+    // 生成退款编号
     public static function getAvailableRefundNo() {
         do {
             $no = Uuid::uuid4()->getHex();
         } while (self::query()->where('refund_no', $no)->exists());
 
         return $no;
+    }
+
+    public function couponCode() {
+        return $this->belongsTo(CouponCode::class);
     }
 }
