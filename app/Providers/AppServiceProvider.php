@@ -18,7 +18,7 @@ class AppServiceProvider extends ServiceProvider
         $this->app->singleton('alipay', function () {
             $config = config('pay.alipay');
             // $config['notify_url'] = route('payment.alipay.notify');
-            $config['notify_url'] = 'http://requestbin.net/r/19dc30o1';
+            $config['notify_url'] = 'http://requestbin.net/r/1a5dsi21';
             $config['return_url'] = route('payment.alipay.return');
 
             if (app()->environment() !== 'production') {
