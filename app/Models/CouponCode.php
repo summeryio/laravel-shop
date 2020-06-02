@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Encore\Admin\Traits\DefaultDatetimeFormat;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Str;
 
 class CouponCode extends Model
 {
@@ -35,4 +36,26 @@ class CouponCode extends Model
     ];
     // 指明这两个字段是日期类型
     protected $dates = ['not_before', 'not_after'];
+    protected $appends = ['description'];
+
+    public static function findAvailableCode($length = 16) {
+        do {
+            $code = strtoupper(Str::random($length));
+        } while (self::query()->where('code', $code)->exists());
+
+        return $code;
+    }
+
+    public function getDescriptionAttribute() {
+        $str = '';
+
+        if ($this->min_amount > 0) {
+            $str = '满'.str_replace('.00', '', $this->min_amount);
+        }
+        if ($this->type === self::TYPE_PERCENT) {
+            return $str.'优惠'.str_replace('.00', '', $this->value).'%';
+        }
+
+        return $str.'减'.str_replace('.00', '', $this->value);
+    }
 }
