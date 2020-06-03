@@ -7,7 +7,7 @@
 #
 # Host: 127.0.0.1 (MySQL 5.7.27-0ubuntu0.18.04.1)
 # Database: laravel-shop
-# Generation Time: 2020-06-02 10:30:41 +0000
+# Generation Time: 2020-06-03 10:10:36 +0000
 # ************************************************************
 
 
@@ -618,7 +618,33 @@ VALUES
 	(534,1,'admin/coupon_codes','GET','192.168.10.1','[]','2020-06-02 17:59:47','2020-06-02 17:59:47'),
 	(535,1,'admin/_handle_action_','POST','192.168.10.1','{\"_key\":\"5\",\"_model\":\"App_Models_CouponCode\",\"_token\":\"lL9513bu5vE8N28x2qnRpEVkbNs9wsUscEcXWfCk\",\"_action\":\"Encore_Admin_Grid_Actions_Delete\",\"_input\":\"true\"}','2020-06-02 17:59:58','2020-06-02 17:59:58'),
 	(536,1,'admin/coupon_codes','GET','192.168.10.1','{\"_pjax\":\"#pjax-container\"}','2020-06-02 17:59:59','2020-06-02 17:59:59'),
-	(537,1,'admin/coupon_codes','GET','192.168.10.1','[]','2020-06-02 18:00:02','2020-06-02 18:00:02');
+	(537,1,'admin/coupon_codes','GET','192.168.10.1','[]','2020-06-02 18:00:02','2020-06-02 18:00:02'),
+	(538,1,'admin','GET','192.168.10.1','[]','2020-06-03 13:03:08','2020-06-03 13:03:08'),
+	(539,1,'admin','GET','192.168.10.1','[]','2020-06-03 13:03:12','2020-06-03 13:03:12'),
+	(540,1,'admin/coupon_codes','GET','192.168.10.1','{\"_pjax\":\"#pjax-container\"}','2020-06-03 13:05:44','2020-06-03 13:05:44'),
+	(541,1,'admin/coupon_codes/11/edit','GET','192.168.10.1','{\"_pjax\":\"#pjax-container\"}','2020-06-03 13:05:48','2020-06-03 13:05:48'),
+	(542,1,'admin/coupon_codes','GET','192.168.10.1','{\"_pjax\":\"#pjax-container\"}','2020-06-03 13:05:50','2020-06-03 13:05:50'),
+	(543,1,'admin/coupon_codes','GET','192.168.10.1','[]','2020-06-03 13:20:28','2020-06-03 13:20:28'),
+	(544,1,'admin/coupon_codes','GET','192.168.10.1','[]','2020-06-03 13:21:42','2020-06-03 13:21:42'),
+	(545,1,'admin/coupon_codes','GET','192.168.10.1','[]','2020-06-03 13:28:40','2020-06-03 13:28:40'),
+	(546,1,'admin/products','GET','192.168.10.1','{\"_pjax\":\"#pjax-container\"}','2020-06-03 13:30:58','2020-06-03 13:30:58'),
+	(547,1,'admin/products/2/edit','GET','192.168.10.1','{\"_pjax\":\"#pjax-container\"}','2020-06-03 13:31:05','2020-06-03 13:31:05'),
+	(548,1,'admin/products/2','PUT','192.168.10.1','{\"title\":\"aut\",\"description\":\"<p>Recusandae possimus soluta nesciunt nisi.<\\/p>\",\"on_sale\":\"0\",\"skus\":{\"3\":{\"title\":\"est\",\"description\":\"Accusamus nihil molestiae et eaque ipsum et.\",\"price\":\"0.01\",\"stock\":\"21227\",\"id\":\"3\",\"_remove_\":\"0\"},\"4\":{\"title\":\"sunt\",\"description\":\"Quod ab vero dolorem.\",\"price\":\"7772.00\",\"stock\":\"99149\",\"id\":\"4\",\"_remove_\":\"0\"},\"5\":{\"title\":\"corporis\",\"description\":\"Corporis sit totam ad.\",\"price\":\"8174.00\",\"stock\":\"78119\",\"id\":\"5\",\"_remove_\":\"0\"}},\"_token\":\"3liieHlD46bq1FOP5H377DYEbZyW00r1rkRqSTX3\",\"_method\":\"PUT\",\"_previous_\":\"http:\\/\\/laravel-shop.test\\/admin\\/products\"}','2020-06-03 13:31:22','2020-06-03 13:31:22'),
+	(549,1,'admin/products','GET','192.168.10.1','[]','2020-06-03 13:31:23','2020-06-03 13:31:23'),
+	(550,1,'admin/products','GET','192.168.10.1','[]','2020-06-03 13:31:56','2020-06-03 13:31:56'),
+	(551,1,'admin/products/2/edit','GET','192.168.10.1','{\"_pjax\":\"#pjax-container\"}','2020-06-03 13:32:00','2020-06-03 13:32:00'),
+	(552,1,'admin/products/2','PUT','192.168.10.1','{\"title\":\"aut\",\"description\":\"<p>Recusandae possimus soluta nesciunt nisi.<\\/p>\",\"on_sale\":\"1\",\"skus\":{\"3\":{\"title\":\"est\",\"description\":\"Accusamus nihil molestiae et eaque ipsum et.\",\"price\":\"0.01\",\"stock\":\"21227\",\"id\":\"3\",\"_remove_\":\"0\"},\"4\":{\"title\":\"sunt\",\"description\":\"Quod ab vero dolorem.\",\"price\":\"7772.00\",\"stock\":\"99149\",\"id\":\"4\",\"_remove_\":\"0\"},\"5\":{\"title\":\"corporis\",\"description\":\"Corporis sit totam ad.\",\"price\":\"8174.00\",\"stock\":\"78119\",\"id\":\"5\",\"_remove_\":\"0\"}},\"_token\":\"3liieHlD46bq1FOP5H377DYEbZyW00r1rkRqSTX3\",\"_method\":\"PUT\",\"_previous_\":\"http:\\/\\/laravel-shop.test\\/admin\\/products\"}','2020-06-03 13:32:28','2020-06-03 13:32:28'),
+	(553,1,'admin/products','GET','192.168.10.1','[]','2020-06-03 13:32:29','2020-06-03 13:32:29'),
+	(554,1,'admin/coupon_codes','GET','192.168.10.1','{\"_pjax\":\"#pjax-container\"}','2020-06-03 13:32:57','2020-06-03 13:32:57'),
+	(555,1,'admin/coupon_codes','GET','192.168.10.1','[]','2020-06-03 14:46:32','2020-06-03 14:46:32'),
+	(556,1,'admin/orders','GET','192.168.10.1','{\"_pjax\":\"#pjax-container\"}','2020-06-03 14:50:42','2020-06-03 14:50:42'),
+	(557,1,'admin/products','GET','192.168.10.1','{\"_pjax\":\"#pjax-container\"}','2020-06-03 14:50:43','2020-06-03 14:50:43'),
+	(558,1,'admin/products','GET','192.168.10.1','{\"_pjax\":\"#pjax-container\"}','2020-06-03 14:50:44','2020-06-03 14:50:44'),
+	(559,1,'admin/products/2/edit','GET','192.168.10.1','{\"_pjax\":\"#pjax-container\"}','2020-06-03 14:50:46','2020-06-03 14:50:46'),
+	(560,1,'admin/products/2','PUT','192.168.10.1','{\"title\":\"aut\",\"description\":\"<p>Recusandae possimus soluta nesciunt nisi.<\\/p>\",\"on_sale\":\"1\",\"skus\":{\"3\":{\"title\":\"est\",\"description\":\"Accusamus nihil molestiae et eaque ipsum et.\",\"price\":\"0.01\",\"stock\":\"21226\",\"id\":\"3\",\"_remove_\":\"0\"},\"4\":{\"title\":\"sunt\",\"description\":\"Quod ab vero dolorem.\",\"price\":\"7772.00\",\"stock\":\"99149\",\"id\":\"4\",\"_remove_\":\"0\"},\"5\":{\"title\":\"corporis\",\"description\":\"Corporis sit totam ad.\",\"price\":\"200.00\",\"stock\":\"78118\",\"id\":\"5\",\"_remove_\":\"0\"}},\"_token\":\"3liieHlD46bq1FOP5H377DYEbZyW00r1rkRqSTX3\",\"_method\":\"PUT\",\"_previous_\":\"http:\\/\\/laravel-shop.test\\/admin\\/products\"}','2020-06-03 14:50:56','2020-06-03 14:50:56'),
+	(561,1,'admin/products','GET','192.168.10.1','[]','2020-06-03 14:50:56','2020-06-03 14:50:56'),
+	(562,1,'admin/coupon_codes','GET','192.168.10.1','{\"_pjax\":\"#pjax-container\"}','2020-06-03 14:51:09','2020-06-03 14:51:09'),
+	(563,1,'admin/auth/roles','GET','192.168.10.1','{\"_pjax\":\"#pjax-container\"}','2020-06-03 15:04:41','2020-06-03 15:04:41');
 
 /*!40000 ALTER TABLE `admin_operation_log` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -830,7 +856,7 @@ LOCK TABLES `cart_items` WRITE;
 
 INSERT INTO `cart_items` (`id`, `user_id`, `product_sku_id`, `amount`)
 VALUES
-	(3,1,5,1);
+	(9,1,5,1);
 
 /*!40000 ALTER TABLE `cart_items` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -864,8 +890,8 @@ LOCK TABLES `coupon_codes` WRITE;
 
 INSERT INTO `coupon_codes` (`id`, `name`, `code`, `type`, `value`, `total`, `used`, `min_amount`, `not_before`, `not_after`, `enabled`, `created_at`, `updated_at`)
 VALUES
-	(1,'dolorem ullam aliquam','UG9OBUZN2ANZZQCL','percent',7.00,1000,0,723.00,NULL,NULL,1,'2020-06-02 15:00:37','2020-06-02 15:00:37'),
-	(2,'eaque dolore eos','L3KZRC1YTAGCP7T1','percent',15.00,1000,0,260.00,NULL,NULL,1,'2020-06-02 15:00:37','2020-06-02 15:00:37'),
+	(1,'dolorem ullam aliquam','UG9OBUZN2ANZZQCL','percent',7.00,1000,1,723.00,NULL,NULL,1,'2020-06-02 15:00:37','2020-06-03 13:21:37'),
+	(2,'eaque dolore eos','L3KZRC1YTAGCP7T1','percent',15.00,1000,1,260.00,NULL,NULL,1,'2020-06-02 15:00:37','2020-06-03 14:44:45'),
 	(3,'velit cumque rerum','CVTFQBN4CKOA8MC4','percent',19.00,1000,0,650.00,NULL,NULL,1,'2020-06-02 15:00:37','2020-06-02 15:00:37'),
 	(4,'eveniet quia et','H1PTXI42RZN0T2BI','fixed',185.00,1000,0,185.01,NULL,NULL,1,'2020-06-02 15:00:37','2020-06-02 15:00:37'),
 	(6,'aut aut adipisci','JPTKOTOOD9E9KGZX','percent',25.00,1000,0,420.00,NULL,NULL,1,'2020-06-02 15:00:37','2020-06-02 15:00:37'),
@@ -989,7 +1015,11 @@ VALUES
 	(11,10,10,29,1,3465.00,1,'111111','2020-05-29 17:14:26'),
 	(12,11,11,32,1,3494.00,NULL,NULL,NULL),
 	(13,12,13,38,1,9294.00,NULL,NULL,NULL),
-	(14,13,18,51,1,592.00,5,'11111','2020-05-30 13:26:01');
+	(14,13,18,51,1,592.00,5,'11111','2020-05-30 13:26:01'),
+	(15,14,4,11,1,1883.00,NULL,NULL,NULL),
+	(16,15,2,5,1,8174.00,NULL,NULL,NULL),
+	(17,15,3,6,1,3431.00,NULL,NULL,NULL),
+	(18,15,2,3,1,0.01,NULL,NULL,NULL);
 
 /*!40000 ALTER TABLE `order_items` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -1043,7 +1073,9 @@ VALUES
 	(10,'20200529164910070512',1,'{\"address\":\"\\u6d77\\u5357\\u7701\\u6d77\\u53e3\\u5e02\\u9f99\\u534e\\u533a\\u6d77\\u79c0\\u4e2d\\u8def\\u661f\\u534e\\u5927\\u53a61706\",\"zip\":571300,\"contact_name\":\"\\u53f6\\u5b50\",\"contact_phone\":\"18289639280\"}',3465.00,'评价测试备注','2020-05-28 17:03:02',NULL,NULL,NULL,'pending',NULL,1,1,'pending',NULL,NULL,'2020-05-29 16:49:10','2020-05-29 17:14:26'),
 	(11,'20200530115517250391',1,'{\"address\":\"\\u6d77\\u5357\\u7701\\u6d77\\u53e3\\u5e02\\u9f99\\u534e\\u533a\\u6d77\\u79c0\\u4e2d\\u8def\\u661f\\u534e\\u5927\\u53a61706\",\"zip\":571300,\"contact_name\":\"\\u53f6\\u5b50\",\"contact_phone\":\"18289639280\"}',3494.00,'支付3494.00元',NULL,NULL,NULL,NULL,'pending',NULL,0,0,'pending',NULL,NULL,'2020-05-30 11:55:17','2020-05-30 11:55:17'),
 	(12,'20200530120233152837',1,'{\"address\":\"\\u6d77\\u5357\\u7701\\u6d77\\u53e3\\u5e02\\u9f99\\u534e\\u533a\\u6d77\\u79c0\\u4e2d\\u8def\\u661f\\u534e\\u5927\\u53a61706\",\"zip\":571300,\"contact_name\":\"\\u53f6\\u5b50\",\"contact_phone\":\"18289639280\"}',9294.00,'232323','2020-05-30 12:04:52',NULL,'alipay','2020053022001450660508263539','applied',NULL,0,0,'pending',NULL,'{\"refund_reason\":\"\\u6d4b\\u8bd5\\u9000\\u6b3e\\u54c8\\u54c8\\u54c8\\u54c8\\u54c8\"}','2020-05-30 12:02:33','2020-05-30 12:06:26'),
-	(13,'20200530132205064455',1,'{\"address\":\"\\u6d77\\u5357\\u7701\\u6d77\\u53e3\\u5e02\\u9f99\\u534e\\u533a\\u6d77\\u79c0\\u4e2d\\u8def\\u661f\\u534e\\u5927\\u53a61706\",\"zip\":571300,\"contact_name\":\"\\u53f6\\u5b50\",\"contact_phone\":\"18289639280\"}',592.00,'666666666','2020-05-30 13:24:29',NULL,'alipay','2020053022001450660508263828','success',NULL,0,1,'pending',NULL,'{\"refund_reason\":\"\\u624b\\u673a\\u592a\\u5783\\u573e\\u4e86\\uff01\\uff01\\uff01\\u9000\\u6b3e\"}','2020-05-30 13:22:05','2020-05-30 13:26:01');
+	(13,'20200530132205064455',1,'{\"address\":\"\\u6d77\\u5357\\u7701\\u6d77\\u53e3\\u5e02\\u9f99\\u534e\\u533a\\u6d77\\u79c0\\u4e2d\\u8def\\u661f\\u534e\\u5927\\u53a61706\",\"zip\":571300,\"contact_name\":\"\\u53f6\\u5b50\",\"contact_phone\":\"18289639280\"}',592.00,'666666666','2020-05-30 13:24:29',NULL,'alipay','2020053022001450660508263828','success',NULL,0,1,'pending',NULL,'{\"refund_reason\":\"\\u624b\\u673a\\u592a\\u5783\\u573e\\u4e86\\uff01\\uff01\\uff01\\u9000\\u6b3e\"}','2020-05-30 13:22:05','2020-05-30 13:26:01'),
+	(14,'20200603132137617872',1,'{\"address\":\"\\u6d77\\u5357\\u7701\\u6d77\\u53e3\\u5e02\\u9f99\\u534e\\u533a\\u6d77\\u79c0\\u4e2d\\u8def\\u661f\\u534e\\u5927\\u53a61706\",\"zip\":571300,\"contact_name\":\"\\u53f6\\u5b50\",\"contact_phone\":\"18289639280\"}',1751.19,NULL,NULL,1,NULL,NULL,'pending',NULL,0,0,'pending',NULL,NULL,'2020-06-03 13:21:37','2020-06-03 13:21:37'),
+	(15,'20200603144445392756',1,'{\"address\":\"\\u6d77\\u5357\\u7701\\u6d77\\u53e3\\u5e02\\u9f99\\u534e\\u533a\\u6d77\\u79c0\\u4e2d\\u8def\\u661f\\u534e\\u5927\\u53a61706\",\"zip\":571300,\"contact_name\":\"\\u53f6\\u5b50\",\"contact_phone\":\"18289639280\"}',9864.26,NULL,NULL,2,NULL,NULL,'pending',NULL,0,0,'pending',NULL,NULL,'2020-06-03 14:44:45','2020-06-03 14:44:45');
 
 /*!40000 ALTER TABLE `orders` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -1089,15 +1121,15 @@ INSERT INTO `product_skus` (`id`, `title`, `description`, `price`, `stock`, `pro
 VALUES
 	(1,'银色64G','IphoneX 银色64G',5999.00,100,1,'2020-05-22 17:25:19','2020-05-22 17:57:21'),
 	(2,'灰色256G','IphoneX 灰色256G',9999.00,90,1,'2020-05-22 17:25:19','2020-05-22 17:25:19'),
-	(3,'est','Accusamus nihil molestiae et eaque ipsum et.',3916.00,21227,2,'2020-05-23 16:07:56','2020-05-23 16:07:56'),
+	(3,'est','Accusamus nihil molestiae et eaque ipsum et.',0.01,21226,2,'2020-05-23 16:07:56','2020-06-03 14:44:45'),
 	(4,'sunt','Quod ab vero dolorem.',7772.00,99149,2,'2020-05-23 16:07:56','2020-05-23 16:07:56'),
-	(5,'corporis','Corporis sit totam ad.',8174.00,78119,2,'2020-05-23 16:07:56','2020-05-23 16:07:56'),
-	(6,'architecto','Dolore corrupti quo omnis qui.',3431.00,21407,3,'2020-05-23 16:07:56','2020-05-23 16:07:56'),
+	(5,'corporis','Corporis sit totam ad.',200.00,78118,2,'2020-05-23 16:07:56','2020-06-03 14:50:56'),
+	(6,'architecto','Dolore corrupti quo omnis qui.',3431.00,21406,3,'2020-05-23 16:07:56','2020-06-03 14:44:45'),
 	(7,'et','Nihil iste quos inventore velit consequatur.',6115.00,57881,3,'2020-05-23 16:07:56','2020-05-23 16:07:56'),
 	(8,'veniam','Ducimus perspiciatis earum aut ut non cupiditate ipsum.',7983.00,98828,3,'2020-05-23 16:07:56','2020-05-23 16:07:56'),
 	(9,'voluptatum','Hic tempora animi aliquam et omnis sunt.',2977.00,87719,4,'2020-05-23 16:07:56','2020-05-23 16:07:56'),
 	(10,'dolore','Placeat error ut facilis assumenda accusantium excepturi.',2047.00,42437,4,'2020-05-23 16:07:56','2020-05-27 11:34:40'),
-	(11,'consequuntur','Velit rem sapiente quia delectus.',1883.00,21864,4,'2020-05-23 16:07:56','2020-05-29 09:08:06'),
+	(11,'consequuntur','Velit rem sapiente quia delectus.',1883.00,21863,4,'2020-05-23 16:07:56','2020-06-03 13:21:37'),
 	(12,'dolore','Et totam ea voluptatem sint sint perferendis facere in.',4785.00,81162,5,'2020-05-23 16:07:57','2020-05-23 16:07:57'),
 	(13,'error','Culpa debitis aut repudiandae expedita est magni omnis.',3465.00,10178,5,'2020-05-23 16:07:57','2020-05-23 16:07:57'),
 	(14,'expedita','Illo amet qui porro facere iste debitis harum.',6171.00,46389,5,'2020-05-23 16:07:57','2020-05-23 16:07:57'),
@@ -1210,7 +1242,7 @@ LOCK TABLES `products` WRITE;
 INSERT INTO `products` (`id`, `title`, `description`, `image`, `on_sale`, `rating`, `sold_count`, `review_count`, `price`, `created_at`, `updated_at`)
 VALUES
 	(1,'Apple/苹果 IphoneX','<p>IphoneX商品描述</p><p>IphoneX商品描述</p><p>IphoneX商品描述</p><p><br></p>','images/64e19d7e555ccb24324b78d8d1535b21.jpg',0,5.00,0,0,5999.00,'2020-05-22 17:25:19','2020-05-23 16:09:12'),
-	(2,'aut','<p>Recusandae possimus soluta nesciunt nisi.</p>','https://cdn.learnku.com/uploads/images/201806/01/5320/pa7DrV43Mw.jpg',0,1.00,0,0,3916.00,'2020-05-23 16:07:56','2020-05-25 18:21:38'),
+	(2,'aut','<p>Recusandae possimus soluta nesciunt nisi.</p>','https://cdn.learnku.com/uploads/images/201806/01/5320/pa7DrV43Mw.jpg',1,1.00,0,0,0.01,'2020-05-23 16:07:56','2020-06-03 13:32:29'),
 	(3,'et','Labore iure assumenda quos blanditiis voluptate voluptas maxime et.','https://cdn.learnku.com/uploads/images/201806/01/5320/pa7DrV43Mw.jpg',1,4.00,0,0,3431.00,'2020-05-23 16:07:56','2020-05-23 16:07:56'),
 	(4,'rerum','Labore iste ex laboriosam consequatur saepe non fuga et.','https://cdn.learnku.com/uploads/images/201806/01/5320/2JMRaFwRpo.jpg',1,5.00,0,0,1883.00,'2020-05-23 16:07:56','2020-05-23 16:07:57'),
 	(5,'sunt','<p>Ea animi id et dolorum.</p>','https://cdn.learnku.com/uploads/images/201806/01/5320/82Wf2sg8gM.jpg',0,5.00,0,0,3465.00,'2020-05-23 16:07:56','2020-05-25 18:02:50'),
@@ -1275,7 +1307,7 @@ INSERT INTO `user_addresses` (`id`, `user_id`, `province`, `city`, `district`, `
 VALUES
 	(1,1,'广东省','深圳市','福田区','第89街道第759111号',274800,'欧阳哲','13125075617','2020-05-28 11:36:17','2020-05-20 16:24:26','2020-05-28 11:36:17'),
 	(2,1,'广东省','深圳市','福田区','第95街道第859号',186200,'仲淑珍','18050527418',NULL,'2020-05-20 16:24:26','2020-05-20 16:24:26'),
-	(4,1,'海南省','海口市','龙华区','海秀中路星华大厦1706',571300,'叶子','18289639280','2020-05-30 13:22:05','2020-05-20 17:33:59','2020-05-30 13:22:05');
+	(4,1,'海南省','海口市','龙华区','海秀中路星华大厦1706',571300,'叶子','18289639280','2020-06-03 14:44:45','2020-05-20 17:33:59','2020-06-03 14:44:45');
 
 /*!40000 ALTER TABLE `user_addresses` ENABLE KEYS */;
 UNLOCK TABLES;
