@@ -7,7 +7,7 @@
 #
 # Host: 127.0.0.1 (MySQL 5.7.27-0ubuntu0.18.04.1)
 # Database: laravel-shop
-# Generation Time: 2020-06-03 10:10:36 +0000
+# Generation Time: 2020-06-04 06:41:00 +0000
 # ************************************************************
 
 
@@ -644,7 +644,39 @@ VALUES
 	(560,1,'admin/products/2','PUT','192.168.10.1','{\"title\":\"aut\",\"description\":\"<p>Recusandae possimus soluta nesciunt nisi.<\\/p>\",\"on_sale\":\"1\",\"skus\":{\"3\":{\"title\":\"est\",\"description\":\"Accusamus nihil molestiae et eaque ipsum et.\",\"price\":\"0.01\",\"stock\":\"21226\",\"id\":\"3\",\"_remove_\":\"0\"},\"4\":{\"title\":\"sunt\",\"description\":\"Quod ab vero dolorem.\",\"price\":\"7772.00\",\"stock\":\"99149\",\"id\":\"4\",\"_remove_\":\"0\"},\"5\":{\"title\":\"corporis\",\"description\":\"Corporis sit totam ad.\",\"price\":\"200.00\",\"stock\":\"78118\",\"id\":\"5\",\"_remove_\":\"0\"}},\"_token\":\"3liieHlD46bq1FOP5H377DYEbZyW00r1rkRqSTX3\",\"_method\":\"PUT\",\"_previous_\":\"http:\\/\\/laravel-shop.test\\/admin\\/products\"}','2020-06-03 14:50:56','2020-06-03 14:50:56'),
 	(561,1,'admin/products','GET','192.168.10.1','[]','2020-06-03 14:50:56','2020-06-03 14:50:56'),
 	(562,1,'admin/coupon_codes','GET','192.168.10.1','{\"_pjax\":\"#pjax-container\"}','2020-06-03 14:51:09','2020-06-03 14:51:09'),
-	(563,1,'admin/auth/roles','GET','192.168.10.1','{\"_pjax\":\"#pjax-container\"}','2020-06-03 15:04:41','2020-06-03 15:04:41');
+	(563,1,'admin/auth/roles','GET','192.168.10.1','{\"_pjax\":\"#pjax-container\"}','2020-06-03 15:04:41','2020-06-03 15:04:41'),
+	(564,1,'admin','GET','192.168.10.1','[]','2020-06-04 13:23:28','2020-06-04 13:23:28'),
+	(565,1,'admin/coupon_codes','GET','192.168.10.1','{\"_pjax\":\"#pjax-container\"}','2020-06-04 13:23:47','2020-06-04 13:23:47'),
+	(566,1,'admin/coupon_codes/11/edit','GET','192.168.10.1','{\"_pjax\":\"#pjax-container\"}','2020-06-04 13:25:02','2020-06-04 13:25:02'),
+	(567,1,'admin/coupon_codes','GET','192.168.10.1','{\"_pjax\":\"#pjax-container\"}','2020-06-04 13:25:05','2020-06-04 13:25:05'),
+	(568,1,'admin/orders','GET','192.168.10.1','{\"_pjax\":\"#pjax-container\"}','2020-06-04 13:25:08','2020-06-04 13:25:08'),
+	(569,1,'admin/coupon_codes','GET','192.168.10.1','{\"_pjax\":\"#pjax-container\"}','2020-06-04 13:25:10','2020-06-04 13:25:10'),
+	(570,1,'admin/auth/permissions','GET','192.168.10.1','{\"_pjax\":\"#pjax-container\"}','2020-06-04 13:25:27','2020-06-04 13:25:27'),
+	(571,1,'admin/auth/permissions/create','GET','192.168.10.1','{\"_pjax\":\"#pjax-container\"}','2020-06-04 13:25:32','2020-06-04 13:25:32'),
+	(572,1,'admin/auth/permissions','POST','192.168.10.1','{\"slug\":\"products\",\"name\":\"\\u5546\\u54c1\\u7ba1\\u7406\",\"http_method\":[null],\"http_path\":\"\\/products*\",\"_token\":\"uCgxjy9eXNhkfA957qZyxJguck9XWymMagPbRgcY\",\"_previous_\":\"http:\\/\\/laravel-shop.test\\/admin\\/auth\\/permissions\"}','2020-06-04 13:26:15','2020-06-04 13:26:15'),
+	(573,1,'admin/auth/permissions','GET','192.168.10.1','[]','2020-06-04 13:26:18','2020-06-04 13:26:18'),
+	(574,1,'admin/auth/permissions/create','GET','192.168.10.1','{\"_pjax\":\"#pjax-container\"}','2020-06-04 13:26:22','2020-06-04 13:26:22'),
+	(575,1,'admin/auth/permissions','POST','192.168.10.1','{\"slug\":\"coupon_codes\",\"name\":\"\\u4f18\\u60e0\\u5238\\u7ba1\\u7406\",\"http_method\":[null],\"http_path\":\"\\/coupon_codes*\",\"_token\":\"uCgxjy9eXNhkfA957qZyxJguck9XWymMagPbRgcY\",\"_previous_\":\"http:\\/\\/laravel-shop.test\\/admin\\/auth\\/permissions\"}','2020-06-04 13:26:41','2020-06-04 13:26:41'),
+	(576,1,'admin/auth/permissions','GET','192.168.10.1','[]','2020-06-04 13:26:42','2020-06-04 13:26:42'),
+	(577,1,'admin/auth/permissions/create','GET','192.168.10.1','{\"_pjax\":\"#pjax-container\"}','2020-06-04 13:26:59','2020-06-04 13:26:59'),
+	(578,1,'admin/auth/permissions','POST','192.168.10.1','{\"slug\":\"orders\",\"name\":\"\\u8ba2\\u5355\\u7ba1\\u7406\",\"http_method\":[null],\"http_path\":\"\\/orders*\",\"_token\":\"uCgxjy9eXNhkfA957qZyxJguck9XWymMagPbRgcY\",\"_previous_\":\"http:\\/\\/laravel-shop.test\\/admin\\/auth\\/permissions\"}','2020-06-04 13:27:19','2020-06-04 13:27:19'),
+	(579,1,'admin/auth/permissions','GET','192.168.10.1','[]','2020-06-04 13:27:19','2020-06-04 13:27:19'),
+	(580,1,'admin/auth/roles','GET','192.168.10.1','{\"_pjax\":\"#pjax-container\"}','2020-06-04 13:28:30','2020-06-04 13:28:30'),
+	(581,1,'admin/auth/roles/2/edit','GET','192.168.10.1','{\"_pjax\":\"#pjax-container\"}','2020-06-04 13:28:34','2020-06-04 13:28:34'),
+	(582,1,'admin/auth/roles/2','PUT','192.168.10.1','{\"slug\":\"operation\",\"name\":\"\\u8fd0\\u8425\",\"permissions\":[\"2\",\"3\",\"4\",\"6\",\"7\",\"8\",\"9\",null],\"_token\":\"uCgxjy9eXNhkfA957qZyxJguck9XWymMagPbRgcY\",\"_method\":\"PUT\",\"_previous_\":\"http:\\/\\/laravel-shop.test\\/admin\\/auth\\/roles\"}','2020-06-04 13:28:46','2020-06-04 13:28:46'),
+	(583,1,'admin/auth/roles','GET','192.168.10.1','[]','2020-06-04 13:28:46','2020-06-04 13:28:46'),
+	(584,1,'admin/auth/logout','GET','192.168.10.1','{\"_pjax\":\"#pjax-container\"}','2020-06-04 13:28:53','2020-06-04 13:28:53'),
+	(585,2,'admin','GET','192.168.10.1','[]','2020-06-04 13:29:07','2020-06-04 13:29:07'),
+	(586,2,'admin/coupon_codes','GET','192.168.10.1','{\"_pjax\":\"#pjax-container\"}','2020-06-04 13:29:12','2020-06-04 13:29:12'),
+	(587,2,'admin/orders','GET','192.168.10.1','{\"_pjax\":\"#pjax-container\"}','2020-06-04 13:29:20','2020-06-04 13:29:20'),
+	(588,2,'admin/users','GET','192.168.10.1','{\"_pjax\":\"#pjax-container\"}','2020-06-04 13:29:22','2020-06-04 13:29:22'),
+	(589,2,'admin','GET','192.168.10.1','{\"_pjax\":\"#pjax-container\"}','2020-06-04 13:29:24','2020-06-04 13:29:24'),
+	(590,2,'admin/users','GET','192.168.10.1','{\"_pjax\":\"#pjax-container\"}','2020-06-04 13:29:26','2020-06-04 13:29:26'),
+	(591,2,'admin/products','GET','192.168.10.1','{\"_pjax\":\"#pjax-container\"}','2020-06-04 13:29:29','2020-06-04 13:29:29'),
+	(592,2,'admin/coupon_codes','GET','192.168.10.1','{\"_pjax\":\"#pjax-container\"}','2020-06-04 13:30:00','2020-06-04 13:30:00'),
+	(593,2,'admin/coupon_codes/11/edit','GET','192.168.10.1','{\"_pjax\":\"#pjax-container\"}','2020-06-04 13:30:04','2020-06-04 13:30:04'),
+	(594,2,'admin','GET','192.168.10.1','{\"_pjax\":\"#pjax-container\"}','2020-06-04 13:30:07','2020-06-04 13:30:07'),
+	(595,2,'admin/users','GET','192.168.10.1','{\"_pjax\":\"#pjax-container\"}','2020-06-04 13:30:09','2020-06-04 13:30:09');
 
 /*!40000 ALTER TABLE `admin_operation_log` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -678,7 +710,10 @@ VALUES
 	(3,'Login','auth.login','','/auth/login\r\n/auth/logout',NULL,NULL),
 	(4,'User setting','auth.setting','GET,PUT','/auth/setting',NULL,NULL),
 	(5,'Auth management','auth.management','','/auth/roles\r\n/auth/permissions\r\n/auth/menu\r\n/auth/logs',NULL,NULL),
-	(6,'用户管理','users','','/users*','2020-05-22 11:25:00','2020-05-22 11:25:00');
+	(6,'用户管理','users','','/users*','2020-05-22 11:25:00','2020-05-22 11:25:00'),
+	(7,'商品管理','products','','/products*','2020-06-04 13:26:15','2020-06-04 13:26:15'),
+	(8,'优惠券管理','coupon_codes','','/coupon_codes*','2020-06-04 13:26:41','2020-06-04 13:26:41'),
+	(9,'订单管理','orders','','/orders*','2020-06-04 13:27:19','2020-06-04 13:27:19');
 
 /*!40000 ALTER TABLE `admin_permissions` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -730,7 +765,10 @@ VALUES
 	(2,2,NULL,NULL),
 	(2,3,NULL,NULL),
 	(2,4,NULL,NULL),
-	(2,6,NULL,NULL);
+	(2,6,NULL,NULL),
+	(2,7,NULL,NULL),
+	(2,8,NULL,NULL),
+	(2,9,NULL,NULL);
 
 /*!40000 ALTER TABLE `admin_role_permissions` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -827,7 +865,7 @@ LOCK TABLES `admin_users` WRITE;
 
 INSERT INTO `admin_users` (`id`, `username`, `password`, `name`, `avatar`, `remember_token`, `created_at`, `updated_at`)
 VALUES
-	(1,'admin','$2y$10$9ilYgz2Q7qpIml9qEwt2NOMMhn1b7qUTGTGFRKd6W/r.dhd42jl6W','Administrator','images/600.jpg','N2dPXVPOvTOfq7lR9NiBpE18XnqMKUd1DbLPYYWmkeaJvsEm6H8H9zGa2o6u','2020-05-21 13:07:01','2020-05-22 10:25:42'),
+	(1,'admin','$2y$10$9ilYgz2Q7qpIml9qEwt2NOMMhn1b7qUTGTGFRKd6W/r.dhd42jl6W','Administrator','images/600.jpg','dzsGFRKs8uw5bFdIayceOgT19Mru2NG3wcp5rMjsTthOMUyz3IZfVRsh6aqR','2020-05-21 13:07:01','2020-05-22 10:25:42'),
 	(2,'operator','$2y$10$lPSol8HeQajII7Ggk3ERW.O30ytQvjFOzYSHIHb0tSmAi36vOu2F6','运营',NULL,'B8mp0hFHSg6AGYelqIhEKctFJ0LpyceNjL6YNndA0wIHBnX4YvXMjDgIoill','2020-05-22 11:29:19','2020-05-22 11:29:19');
 
 /*!40000 ALTER TABLE `admin_users` ENABLE KEYS */;
